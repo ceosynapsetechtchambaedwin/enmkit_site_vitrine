@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Zap, Mail, Phone, MapPin, Linkedin, Facebook, Award, ExternalLink } from 'lucide-react';
+import Image2  from "./image/Image2.jpg"
+
 
 const Footer = () => {
   return (
@@ -15,8 +17,8 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <div className="relative">
-                <div className="bg-gradient-to-br from-primary-500 to-secondary-500 p-3 rounded-xl shadow-lg">
-                  <Zap className="h-8 w-8 text-white" />
+                <div >
+                <img src={Image2} alt='logo' height="50px" width="50px"></img>
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-secondary-400 rounded-xl blur opacity-30"></div>
               </div>
@@ -29,7 +31,7 @@ const Footer = () => {
             </div>
             
             <p className="text-neutral-300 mb-8 max-w-md leading-relaxed">
-              EMKit, la solution camerounaise primée POESAM 2024 pour un contrôle intelligent 
+              EnmKit, la solution camerounaise primée POESAM 2024 pour un contrôle intelligent 
               de votre consommation électrique. Innovation africaine, impact mondial.
             </p>
 
@@ -67,7 +69,7 @@ const Footer = () => {
             <ul className="space-y-3">
               {[
                 { name: 'Accueil', href: '/' },
-                { name: 'Solution EMKit', href: '/solution' },
+                { name: 'Solution EnmKit', href: '/solution' },
                 { name: 'À propos', href: '/about' },
                 { name: 'Témoignages', href: '/testimonials' },
                 { name: 'Contact', href: '/contact' },
@@ -93,7 +95,7 @@ const Footer = () => {
                 <div className="bg-neutral-800 p-2 rounded-lg group-hover:bg-primary-600 transition-colors duration-300">
                   <Phone className="h-4 w-4 text-primary-400 group-hover:text-white" />
                 </div>
-                <span className="text-neutral-300">+237 6XX XXX XXX</span>
+                <span className="text-neutral-300">+237 673 398 046</span>
               </div>
               <div className="flex items-center space-x-3 group">
                 <div className="bg-neutral-800 p-2 rounded-lg group-hover:bg-primary-600 transition-colors duration-300">
@@ -105,7 +107,7 @@ const Footer = () => {
                 <div className="bg-neutral-800 p-2 rounded-lg group-hover:bg-primary-600 transition-colors duration-300">
                   <MapPin className="h-4 w-4 text-primary-400 group-hover:text-white" />
                 </div>
-                <span className="text-neutral-300">Yaoundé, Cameroun</span>
+                <span className="text-neutral-300">Bafoussam, Cameroun</span>
               </div>
             </div>
 

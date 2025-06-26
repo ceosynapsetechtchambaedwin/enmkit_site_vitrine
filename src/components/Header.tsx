@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Zap } from 'lucide-react';
+import Image2  from "./image/Image2.jpg"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,7 +10,7 @@ const Header = () => {
 
   const navigation = [
     { name: 'Accueil', href: '/' },
-    { name: 'Solution EMKit', href: '/solution' },
+    { name: 'Solution EnmKit', href: '/solution' },
     { name: 'À propos', href: '/about' },
     { name: 'Témoignages', href: '/testimonials' },
     { name: 'Contact', href: '/contact' },
@@ -36,8 +37,8 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="relative">
-              <div className="bg-gradient-to-br from-primary-500 to-secondary-500 p-2.5 rounded-xl group-hover:scale-105 transition-all duration-300 shadow-lg group-hover:shadow-xl">
-                <Zap className="h-7 w-7 text-white" />
+              <div >
+                <img src={Image2} alt='logo' height="60px" width="60px" className="shadow-sm brightness-110"></img>
               </div>
               <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-secondary-400 rounded-xl blur opacity-30 group-hover:opacity-50 transition-opacity duration-300"></div>
             </div>

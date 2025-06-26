@@ -13,6 +13,11 @@ import {
   Headphones,
   AlertCircle,
   ArrowRight,
+  DollarSign, 
+  Wifi,
+  Shield,
+  Users,
+  TrendingUp,
   Zap
 } from 'lucide-react';
 
@@ -65,7 +70,7 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Téléphone",
-      info: "+237 6XX XXX XXX",
+      info: "+237 679 398 046",
       description: "Lun-Ven, 8h-18h",
       gradient: "from-primary-500 to-primary-600",
       action: "Appeler maintenant"
@@ -81,7 +86,7 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Adresse",
-      info: "Yaoundé, Cameroun",
+      info: "Bafoussam, Cameroun",
       description: "Siège social",
       gradient: "from-accent-500 to-accent-600",
       action: "Voir sur la carte"
@@ -97,7 +102,7 @@ const Contact = () => {
   ];
 
   const services = [
-    "Installation EMKit",
+    "Installation EnmKit",
     "Démonstration produit",
     "Support technique",
     "Formation utilisateur",
@@ -138,7 +143,7 @@ const Contact = () => {
             
             <p className="text-xl md:text-2xl text-white/80 max-w-4xl mx-auto leading-relaxed">
               Notre équipe d'experts est à votre disposition pour répondre à toutes vos questions 
-              sur EMKit et vous accompagner dans votre transition énergétique.
+              sur EnmKit et vous accompagner dans votre transition énergétique.
             </p>
           </div>
         </div>
@@ -362,7 +367,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold text-neutral-900">Appel direct</div>
-                      <div className="text-sm text-neutral-600">+237 6XX XXX XXX</div>
+                      <div className="text-sm text-neutral-600">+237 673 398 046</div>
                     </div>
                     <ArrowRight className="h-4 w-4 text-neutral-400 group-hover:text-primary-600 group-hover:translate-x-1 transition-all" />
                   </a>
@@ -416,7 +421,7 @@ const Contact = () => {
                   </h3>
                 </div>
                 <p className="text-red-700 mb-6 leading-relaxed">
-                  Pour les problèmes techniques urgents avec votre installation EMKit
+                  Pour les problèmes techniques urgents avec votre installation EnmKit
                 </p>
                 <a
                   href="tel:+237"
@@ -436,7 +441,7 @@ const Contact = () => {
                   </h3>
                 </div>
                 <p className="text-accent-700 mb-6 leading-relaxed">
-                  Planifiez une démonstration EMKit adaptée à vos besoins spécifiques
+                  Planifiez une démonstration EnmKit adaptée à vos besoins spécifiques
                 </p>
                 <button className="inline-flex items-center px-6 py-3 bg-accent-600 text-white rounded-xl hover:bg-accent-700 transition-all duration-300 font-semibold">
                   <Zap className="h-5 w-5 mr-2" />
@@ -463,7 +468,7 @@ const Contact = () => {
               </span>
             </h2>
             <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
-              Rendez-vous dans nos bureaux pour une démonstration personnalisée d'EMKit 
+              Rendez-vous dans nos bureaux pour une démonstration personnalisée d'EnmKit 
               et découvrir notre showroom technologique.
             </p>
           </div>
@@ -475,7 +480,7 @@ const Contact = () => {
                   <MapPin className="h-12 w-12 text-primary-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-neutral-900 mb-3">2meTech Headquarters</h3>
-                <p className="text-lg text-neutral-600 mb-2">Yaoundé, Cameroun</p>
+                <p className="text-lg text-neutral-600 mb-2">Bafoussam, Cameroun</p>
                 <p className="text-sm text-neutral-500 mb-6">
                   Carte interactive et directions détaillées disponibles prochainement
                 </p>
@@ -537,7 +542,7 @@ const Contact = () => {
               },
               {
                 question: "Retour sur investissement ?",
-                answer: "Retour sur investissement moyen de 6-8 mois grâce aux économies d'énergie réalisées avec EMKit.",
+                answer: "Retour sur investissement moyen de 6-8 mois grâce aux économies d'énergie réalisées avec EnmKit.",
                 icon: <TrendingUp className="h-6 w-6 text-accent-600" />
               }
             ].map((faq, index) => (

@@ -6,7 +6,7 @@ const Testimonials = () => {
     {
       name: "Marie Ngono",
       role: "Mère de famille, Yaoundé",
-      content: "Depuis l'installation d'EMKit, j'ai réduit ma facture d'électricité de 38%. Je peux enfin prévoir mes dépenses énergétiques et mes enfants apprennent à être plus responsables avec l'électricité. Une révolution dans notre quotidien !",
+      content: "Depuis l'installation d'EnmKit, j'ai réduit ma facture d'électricité de 38%. Je peux enfin prévoir mes dépenses énergétiques et mes enfants apprennent à être plus responsables avec l'électricité. Une révolution dans notre quotidien !",
       rating: 5,
       image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400",
       savings: "38%",
@@ -15,7 +15,7 @@ const Testimonials = () => {
     {
       name: "Paul Mbarga",
       role: "Entrepreneur, Douala",
-      content: "EMKit m'a permis de détecter des appareils défaillants qui consommaient inutilement. L'application est très intuitive et le support technique exceptionnel. Un investissement rentabilisé en 4 mois seulement !",
+      content: "EnmKit m'a permis de détecter des appareils défaillants qui consommaient inutilement. L'application est très intuitive et le support technique exceptionnel. Un investissement rentabilisé en 4 mois seulement !",
       rating: 5,
       image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
       savings: "42%",
@@ -24,7 +24,7 @@ const Testimonials = () => {
     {
       name: "Claudette Foko",
       role: "Directrice administrative",
-      content: "La tranquillité d'esprit que procure EMKit n'a pas de prix. Je peux surveiller ma consommation même en voyage d'affaires. La technologie camerounaise à son meilleur niveau ! Fière de soutenir l'innovation locale.",
+      content: "La tranquillité d'esprit que procure EnmKit n'a pas de prix. Je peux surveiller ma consommation même en voyage d'affaires. La technologie camerounaise à son meilleur niveau ! Fière de soutenir l'innovation locale.",
       rating: 5,
       image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400",
       savings: "35%",
@@ -33,7 +33,7 @@ const Testimonials = () => {
     {
       name: "Jean-Claude Talla",
       role: "Ingénieur, Bafoussam",
-      content: "En tant qu'ingénieur, j'apprécie la précision des mesures d'EMKit. Les données détaillées m'aident à optimiser l'efficacité énergétique de ma maison. Innovation made in Cameroon au niveau international !",
+      content: "En tant qu'ingénieur, j'apprécie la précision des mesures d'EnmKit. Les données détaillées m'aident à optimiser l'efficacité énergétique de ma maison. Innovation made in Cameroon au niveau international !",
       rating: 5,
       image: "https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=400",
       savings: "45%",
@@ -73,7 +73,7 @@ const Testimonials = () => {
       icon: <Home className="h-8 w-8" />,
       number: "1,200+",
       label: "Foyers équipés",
-      description: "Familles qui font confiance à EMKit",
+      description: "Familles qui font confiance à EnmKit",
       gradient: "from-primary-500 to-primary-600"
     },
     {
@@ -116,12 +116,12 @@ const Testimonials = () => {
             <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-8">
               Ils ont choisi{' '}
               <span className="bg-gradient-to-r from-accent-400 to-secondary-400 bg-clip-text text-transparent">
-                EMKit
+                EnmKit
               </span>
             </h1>
             
             <p className="text-xl md:text-2xl text-white/80 max-w-4xl mx-auto leading-relaxed">
-              Découvrez comment EMKit transforme la vie quotidienne de nos utilisateurs 
+              Découvrez comment EnmKit transforme la vie quotidienne de nos utilisateurs 
               et les aide à maîtriser leur consommation énergétique.
             </p>
           </div>
@@ -161,7 +161,7 @@ const Testimonials = () => {
               </span>
             </h2>
             <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
-              Des témoignages authentiques de familles et professionnels qui ont adopté EMKit 
+              Des témoignages authentiques de familles et professionnels qui ont adopté EnmKit 
               et transformé leur relation avec l'énergie.
             </p>
           </div>
@@ -254,7 +254,7 @@ const Testimonials = () => {
                   <div className="bg-white p-6 rounded-2xl shadow-sm">
                     <h4 className="font-semibold text-neutral-900 mb-3 flex items-center">
                       <CheckCircle className="h-5 w-5 text-primary-500 mr-2" />
-                      Solution EMKit
+                      Solution EnmKit
                     </h4>
                     <p>
                       Installation en octobre 2024 avec formation complète de la famille 
@@ -290,7 +290,7 @@ const Testimonials = () => {
                   </div>
                   
                   <div className="flex justify-between items-center p-4 bg-green-50 rounded-xl">
-                    <span className="text-neutral-700 font-medium">Après EMKit</span>
+                    <span className="text-neutral-700 font-medium">Après EnmKit</span>
                     <span className="text-2xl font-bold text-green-600">{caseStudyData.after} FCFA/mois</span>
                   </div>
                   
@@ -386,7 +386,7 @@ const Testimonials = () => {
             </h2>
             
             <p className="text-xl text-white/80 max-w-2xl mx-auto leading-relaxed">
-              Découvrez par vous-même pourquoi EMKit est la solution de référence 
+              Découvrez par vous-même pourquoi EnmKit est la solution de référence 
               pour la gestion énergétique intelligente. Rejoignez plus de 1,200 foyers satisfaits.
             </p>
             
@@ -402,7 +402,7 @@ const Testimonials = () => {
                 href="/solution"
                 className="inline-flex items-center px-8 py-4 bg-transparent text-white font-semibold rounded-2xl border-2 border-white/30 hover:bg-white/10 hover:border-white/50 transition-all duration-300"
               >
-                Explorer EMKit
+                Explorer EnmKit
               </a>
             </div>
           </div>

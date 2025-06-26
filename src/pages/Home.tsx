@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Image5  from "./images/Image5.jpg"
+import Image1  from "./images/Image1.jpg"
 import { 
   ArrowRight, 
   Smartphone, 
@@ -46,7 +48,7 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: "1000+", label: "Foyers équipés", icon: <Users className="h-6 w-6" /> },
+    { number: "100+", label: "Foyers équipés", icon: <Users className="h-6 w-6" /> },
     { number: "40%", label: "Économies moyennes", icon: <TrendingDown className="h-6 w-6" /> },
     { number: "24/7", label: "Monitoring continu", icon: <Activity className="h-6 w-6" /> },
     { number: "2024", label: "Lauréat POESAM", icon: <Award className="h-6 w-6" /> }
@@ -101,7 +103,7 @@ const Home = () => {
                   </span>{' '}
                   avec{' '}
                   <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">
-                    EMKit
+                    EnmKit
                   </span>
                 </h1>
                 <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl">
@@ -116,13 +118,17 @@ const Home = () => {
                   to="/solution"
                   className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white font-semibold rounded-2xl hover:from-primary-700 hover:to-secondary-700 transition-all duration-300 shadow-2xl hover:shadow-primary-500/25 hover:scale-105"
                 >
-                  Découvrez EMKit
+                  Découvrez EnmKit
                   <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <button className="group inline-flex items-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-2xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  <Play className="mr-3 h-5 w-5" />
-                  Voir la démo
-                </button>
+                <Link
+                  to="https://youtu.be/9IIHCJs5RWc?si=UIw04_euqjkTXRTD"
+                >
+                  <button className="group inline-flex items-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-2xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                    <Play className="mr-3 h-5 w-5" />
+                      Voir la démo
+                  </button>
+                </Link>
               </div>
 
               {/* Trust Indicators */}
@@ -148,9 +154,9 @@ const Home = () => {
                 {/* Main Device Image */}
                 <div className="aspect-square bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/20 shadow-2xl">
                   <img
-                    src="https://images.pexels.com/photos/8053717/pexels-photo-8053717.jpeg?auto=compress&cs=tinysrgb&w=800"
-                    alt="EMKit Smart Energy Monitor"
-                    className="w-full h-full object-cover rounded-2xl"
+                    src={Image5}
+                    alt="image5"
+                    className="w-full h-full object-cover rounded-2xl saturate-200 "
                   />
                 </div>
 
@@ -231,7 +237,7 @@ const Home = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-neutral-900 mb-6">
               Pourquoi choisir{' '}
               <span className="bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
-                EMKit
+                EnmKit
               </span>{' '}
               ?
             </h2>
@@ -316,9 +322,9 @@ const Home = () => {
             <div className="relative">
               <div className="aspect-[4/3] bg-gradient-to-br from-primary-100 to-secondary-100 rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src={Image1}
                   alt="Équipe 2meTech - Dr Agnès Virginie Tjahe"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover saturate-200 contrast-100"
                 />
               </div>
               
@@ -359,7 +365,7 @@ const Home = () => {
             </h2>
             
             <p className="text-xl text-white/80 max-w-2xl mx-auto leading-relaxed">
-              Rejoignez les milliers de foyers qui économisent déjà avec EMKit. 
+              Rejoignez les milliers de foyers qui économisent déjà avec EnmKit. 
               L'avenir énergétique commence aujourd'hui.
             </p>
             
@@ -375,7 +381,7 @@ const Home = () => {
                 to="/solution"
                 className="inline-flex items-center px-8 py-4 bg-transparent text-white font-semibold rounded-2xl border-2 border-white/30 hover:bg-white/10 hover:border-white/50 transition-all duration-300"
               >
-                Explorer EMKit
+                Explorer EnmKit
               </Link>
             </div>
           </div>

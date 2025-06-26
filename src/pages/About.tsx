@@ -76,7 +76,7 @@ const About = () => {
 
   const milestones = [
     { year: "2023", event: "Fondation de 2meTech", description: "Création de l'entreprise avec une vision claire" },
-    { year: "2024", event: "Développement EMKit", description: "Finalisation du prototype et tests pilotes" },
+    { year: "2024", event: "Développement EnmKit", description: "Finalisation du prototype et tests pilotes" },
     { year: "2024", event: "Lauréat POESAM", description: "Grand Prix + Prix spécial féminin" },
     { year: "2024", event: "Orange Fab", description: "Sélection programme d'accélération" },
   ];
@@ -132,7 +132,7 @@ const About = () => {
                 <p>
                   2meTech a été fondée avec une vision claire : démocratiser l'accès à une énergie 
                   intelligente et durable en Afrique. Face aux défis persistants de gestion énergétique 
-                  sur le continent, notre équipe d'experts a développé EMKit, une solution innovante 
+                  sur le continent, notre équipe d'experts a développé EnmKit, une solution innovante 
                   qui répond aux besoins spécifiques des foyers africains.
                 </p>
                 <p>
@@ -151,7 +151,7 @@ const About = () => {
               <div className="grid grid-cols-3 gap-6 pt-8">
                 {[
                   { number: "2024", label: "Année de création" },
-                  { number: "1000+", label: "Foyers équipés" },
+                  { number: "100+", label: "Foyers équipés" },
                   { number: "3", label: "Prix remportés" }
                 ].map((stat, index) => (
                   <div key={index} className="text-center">
