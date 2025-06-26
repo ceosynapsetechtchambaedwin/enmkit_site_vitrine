@@ -73,7 +73,7 @@ const Contact = () => {
       info: "+237 673 398 046",
       description: "Lun-Ven, 8h-18h",
       gradient: "from-primary-500 to-primary-600",
-      action: "Envoyer un message"
+      action:<a href='https://wa.me/237673398046' target='_blank'>Envoyer un message</a> 
     },
     {
       icon: <Mail className="h-6 w-6" />,
@@ -81,7 +81,7 @@ const Contact = () => {
       info: "contact@2metech.cm",
       description: "Réponse sous 24h",
       gradient: "from-secondary-500 to-secondary-600",
-      action: "Envoyer un email"
+      action:<a href='mailto: edwintchamba@gmail.com'>Envoyer un email</a> 
     },
     {
       icon: <MapPin className="h-6 w-6" />,
