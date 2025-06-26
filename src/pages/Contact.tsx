@@ -70,10 +70,10 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Téléphone",
-      info: "+237 679 398 046",
+      info: "+237 673 398 046",
       description: "Lun-Ven, 8h-18h",
       gradient: "from-primary-500 to-primary-600",
-      action: "Appeler maintenant"
+      action: "Envoyer un message"
     },
     {
       icon: <Mail className="h-6 w-6" />,
