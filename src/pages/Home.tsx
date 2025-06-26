@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Image5  from "./images/Image5.jpg"
-import Image1  from "./images/Image1.jpg"
+import Image5  from "./images/image5.jpg"
+import Image1  from "./images/image7.jpg"
 import { 
   ArrowRight, 
   Smartphone, 
@@ -324,7 +324,7 @@ const Home = () => {
                 <img
                   src={Image1}
                   alt="Équipe 2meTech - Dr Agnès Virginie Tjahe"
-                  className="w-full h-full object-cover saturate-200 contrast-100"
+                  className="w-full h-full object-cover saturate-200 "
                 />
               </div>
               

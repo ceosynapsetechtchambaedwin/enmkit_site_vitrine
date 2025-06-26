@@ -150,7 +150,11 @@ const Solution = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="group inline-flex items-center px-8 py-4 bg-white text-primary-900 font-semibold rounded-2xl hover:bg-neutral-100 transition-all duration-300 shadow-2xl hover:scale-105">
                 <Play className="mr-3 h-5 w-5" />
-                Voir la démo interactive
+                <Link
+                  to="https://youtu.be/9IIHCJs5RWc?si=UIw04_euqjkTXRTD"
+                >
+                  Voir la démo interactive
+                 </Link>
               </button>
               <Link
                 to="/contact"

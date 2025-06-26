@@ -8,7 +8,7 @@ const Testimonials = () => {
       role: "Mère de famille, Yaoundé",
       content: "Depuis l'installation d'EnmKit, j'ai réduit ma facture d'électricité de 38%. Je peux enfin prévoir mes dépenses énergétiques et mes enfants apprennent à être plus responsables avec l'électricité. Une révolution dans notre quotidien !",
       rating: 5,
-      image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.app.goo.gl/aZFWKMNHYyFmwpgx8",
       savings: "38%",
       category: "Famille"
     },
@@ -17,7 +17,7 @@ const Testimonials = () => {
       role: "Entrepreneur, Douala",
       content: "EnmKit m'a permis de détecter des appareils défaillants qui consommaient inutilement. L'application est très intuitive et le support technique exceptionnel. Un investissement rentabilisé en 4 mois seulement !",
       rating: 5,
-      image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.app.goo.gl/fZZQGqxKnbKi2p897",
       savings: "42%",
       category: "Entreprise"
     },
@@ -26,7 +26,7 @@ const Testimonials = () => {
       role: "Directrice administrative",
       content: "La tranquillité d'esprit que procure EnmKit n'a pas de prix. Je peux surveiller ma consommation même en voyage d'affaires. La technologie camerounaise à son meilleur niveau ! Fière de soutenir l'innovation locale.",
       rating: 5,
-      image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.app.goo.gl/ZCzMDCqiF3jB1nYW6",
       savings: "35%",
       category: "Professionnel"
     },
@@ -35,7 +35,7 @@ const Testimonials = () => {
       role: "Ingénieur, Bafoussam",
       content: "En tant qu'ingénieur, j'apprécie la précision des mesures d'EnmKit. Les données détaillées m'aident à optimiser l'efficacité énergétique de ma maison. Innovation made in Cameroon au niveau international !",
       rating: 5,
-      image: "https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.app.goo.gl/hfCB1o83aH2698a46",
       savings: "45%",
       category: "Technique"
     }
@@ -61,7 +61,7 @@ const Testimonials = () => {
       type: "Gouvernement"
     },
     {
-      name: "Université de Yaoundé I",
+      name: "Université de IUT",
       logo: "🎓",
       description: "Partenariat recherche et développement en génie électrique",
       type: "Académique"
@@ -71,21 +71,21 @@ const Testimonials = () => {
   const stats = [
     {
       icon: <Home className="h-8 w-8" />,
-      number: "1,200+",
+      number: "100+",
       label: "Foyers équipés",
       description: "Familles qui font confiance à EnmKit",
       gradient: "from-primary-500 to-primary-600"
     },
     {
       icon: <Users className="h-8 w-8" />,
-      number: "98.5%",
+      number: "87%",
       label: "Satisfaction client",
       description: "Taux de satisfaction exceptionnellement élevé",
       gradient: "from-secondary-500 to-secondary-600"
     },
     {
       icon: <Building className="h-8 w-8" />,
-      number: "25",
+      number: "6",
       label: "Villes couvertes",
       description: "Présence dans les principales villes du Cameroun",
       gradient: "from-accent-500 to-accent-600"

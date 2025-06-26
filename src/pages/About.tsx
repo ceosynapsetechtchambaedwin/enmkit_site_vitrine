@@ -1,6 +1,6 @@
 import React from 'react';
 import { Award, Users, Target, Lightbulb, Globe, Heart, Star, Trophy, Rocket, Shield } from 'lucide-react';
-
+import Image6 from "./images/image6.jpg"
 const About = () => {
   const achievements = [
     {
@@ -51,23 +51,31 @@ const About = () => {
     {
       name: "Dr Agnès Virginie Tjahe",
       role: "Fondatrice & CEO",
-      image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.app.goo.gl/aGB5eBPNkQsv32wq7",
       description: "Docteure en génie électrique, experte en systèmes énergétiques intelligents et lauréate POESAM 2024",
-      achievements: ["PhD Génie Électrique", "Lauréate POESAM 2024", "15+ ans d'expérience"],
+      achievements: ["PhD Génie Électrique", "Lauréate POESAM 2024", "5+ ans d'expérience"],
       gradient: "from-primary-500 to-secondary-500"
     },
     {
       name: "Expert Tech Senior",
       role: "CTO & Co-fondateur",
-      image: "https://images.pexels.com/photos/3184283/pexels-photo-3184283.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.app.goo.gl/aGB5eBPNkQsv32wq7",
       description: "Spécialiste IoT et développement de systèmes embarqués avec expertise internationale",
       achievements: ["Expert IoT", "Systèmes embarqués", "Innovation tech"],
       gradient: "from-secondary-500 to-accent-500"
     },
     {
-      name: "Ingénieure R&D",
+      name: "Dr Agnès Virginie Tjahe",
+      role: "Fondatrice & CEO",
+      image: "https://images.app.goo.gl/aGB5eBPNkQsv32wq7",
+      description: "Docteure en génie électrique, experte en systèmes énergétiques intelligents et lauréate POESAM 2024",
+      achievements: ["PhD Génie Électrique", "Lauréate POESAM 2024"],
+      gradient: "from-primary-500 to-secondary-500"
+    },
+    {
+      name: "Responsable Informatique",
       role: "Head of Innovation",
-      image: "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.app.goo.gl/aGB5eBPNkQsv32wq7",
       description: "Experte en recherche et développement de solutions énergétiques durables",
       achievements: ["R&D énergétique", "Solutions durables", "Innovation continue"],
       gradient: "from-accent-500 to-primary-500"
@@ -167,7 +175,7 @@ const About = () => {
             <div className="relative">
               <div className="aspect-[4/3] bg-gradient-to-br from-primary-100 to-secondary-100 rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src={Image6}
                   alt="Histoire de 2meTech"
                   className="w-full h-full object-cover"
                 />
