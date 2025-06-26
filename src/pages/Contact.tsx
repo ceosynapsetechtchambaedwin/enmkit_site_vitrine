@@ -89,7 +89,7 @@ const Contact = () => {
       info: "Bafoussam, Cameroun",
       description: "Siège social",
       gradient: "from-accent-500 to-accent-600",
-      action: "Voir sur la carte"
+      action:<a href='https://www.google.com/maps/place/Bafoussam,+Cameroun' target='_blank' rel='nooper noreferrer'> Voir sur la carte</a>
     },
     {
       icon: <Clock className="h-6 w-6" />,
