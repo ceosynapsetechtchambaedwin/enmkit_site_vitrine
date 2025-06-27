@@ -78,10 +78,10 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      info: "contact@2metech.cm",
+      info: "contact@2metech.com",
       description: "Réponse sous 24h",
       gradient: "from-secondary-500 to-secondary-600",
-      action:<a href='mailto: edwintchamba@gmail.com'>Envoyer un email</a> 
+      action:<a href='mailto: edwintchamba@gmail.com' target='_blank'>Envoyer un email</a> 
     },
     {
       icon: <MapPin className="h-6 w-6" />,

@@ -299,69 +299,7 @@ const Solution = () => {
         </div>
       </section>
 
-      {/* Technical Specs */}
-      <section className="py-24 bg-gradient-to-br from-neutral-900 to-neutral-800 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
-                <Gauge className="h-4 w-4 text-accent-400" />
-                <span className="text-white/90 text-sm font-medium">Spécifications techniques</span>
-              </div>
-              
-              <h2 className="text-4xl md:text-5xl font-bold mb-8">
-                Performance{' '}
-                <span className="bg-gradient-to-r from-accent-400 to-secondary-400 bg-clip-text text-transparent">
-                  industrielle
-                </span>
-              </h2>
-              
-              <p className="text-xl text-white/80 leading-relaxed mb-12">
-                EnmKit respecte les standards internationaux les plus exigeants 
-                avec une précision et une fiabilité exceptionnelles.
-              </p>
-
-              <div className="space-y-8">
-                {techSpecs.map((category, index) => (
-                  <div key={index} className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10">
-                    <h4 className="text-lg font-semibold text-white mb-4">{category.category}</h4>
-                    <div className="grid grid-cols-2 gap-4">
-                      {category.specs.map((spec, idx) => (
-                        <div key={idx} className="flex justify-between">
-                          <span className="text-white/70 text-sm">{spec.label}</span>
-                          <span className="text-white font-medium text-sm">{spec.value}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            
-            <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/20 shadow-2xl">
-                <img
-                  src="https://images.pexels.com/photos/8294616/pexels-photo-8294616.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Dispositif EMKit"
-                  className="w-full h-full object-cover rounded-2xl"
-                />
-              </div>
-              
-              {/* Certifications */}
-              <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-xl">
-                <div className="flex items-center space-x-3">
-                  <Shield className="h-6 w-6 text-secondary-600" />
-                  <div>
-                    <div className="text-sm font-semibold text-neutral-900">Certifié CE/FCC</div>
-                    <div className="text-xs text-neutral-600">Standards internationaux</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* Installation Process */}
       <section className="py-24 bg-gradient-to-br from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
